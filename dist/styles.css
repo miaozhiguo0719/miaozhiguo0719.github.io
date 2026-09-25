@@ -66,6 +66,15 @@ p, h1, h2 { margin: 0; }
 .series-nav a { padding: 1.1rem .75rem; color: var(--soft-ink); font-size: .78rem; border-right: 1px solid #cecec9; transition: color .2s, background .2s; }
 .series-nav a:last-child { border-right: 0; }
 .series-nav a:hover, .series-nav a:focus-visible { color: var(--ink); background: white; }
+.series-nav-four { grid-template-columns: repeat(4, 1fr); }
+.video-feature { scroll-margin-top: 110px; display: grid; grid-template-columns: minmax(220px, .55fr) minmax(0, 1.45fr); gap: clamp(2rem, 5vw, 5rem); align-items: end; margin-bottom: clamp(7rem, 12vw, 11rem); padding: clamp(1.25rem, 2vw, 2rem); background: #111; color: white; border-radius: 10px; }
+.video-copy { padding: clamp(.5rem, 1vw, 1rem); }
+.video-kicker { margin-bottom: clamp(3rem, 9vw, 8rem); color: #8b8b87; font-size: .63rem; letter-spacing: .16em; }
+.video-copy h2 { font-family: Georgia, "Songti SC", serif; font-size: clamp(2.35rem, 4.5vw, 4.5rem); font-weight: 500; line-height: 1.05; }
+.video-copy > p:not(.video-kicker) { max-width: 22rem; margin-top: 1rem; color: #b8b8b3; font-size: .86rem; }
+.video-meta { display: flex; gap: 1.4rem; margin-top: 2.2rem; color: #74746f; font-size: .62rem; letter-spacing: .14em; }
+.video-frame { overflow: hidden; background: #000; border-radius: 6px; box-shadow: 0 22px 50px rgba(0,0,0,.28); }
+.video-frame video { display: block; width: 100%; aspect-ratio: 4 / 3; background: #000; object-fit: contain; }
 .photo-series { scroll-margin-top: 110px; margin-bottom: clamp(7rem, 12vw, 11rem); }
 .series-heading { display: grid; grid-template-columns: 4rem 1fr auto; align-items: end; gap: 1rem; padding-bottom: .9rem; margin-bottom: 1.2rem; border-bottom: 1px solid #cecec9; }
 .series-heading > span, .series-heading > p { color: var(--quiet); font-size: .63rem; letter-spacing: .15em; }
@@ -151,6 +160,10 @@ p, h1, h2 { margin: 0; }
   .series-nav { display: flex; overflow-x: auto; margin-bottom: 5rem; scrollbar-width: none; }
   .series-nav::-webkit-scrollbar { display: none; }
   .series-nav a { flex: 0 0 auto; padding-right: 1.1rem; }
+  .video-feature { grid-template-columns: 1fr; gap: 1.5rem; padding: 1rem; }
+  .video-copy { padding: .5rem .35rem 0; }
+  .video-kicker { margin-bottom: 2.5rem; }
+  .video-copy > p:not(.video-kicker) { max-width: none; }
   .series-heading { grid-template-columns: 2rem 1fr; }
   .series-heading > p { display: none; }
   .photo-grid { grid-template-columns: 1fr; gap: 2.2rem; }
