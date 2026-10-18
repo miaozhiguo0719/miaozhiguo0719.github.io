@@ -12,7 +12,6 @@ function renderAlbum() {
   albumIndex.hidden = Boolean(selected);
   albumViews.forEach(view => { view.hidden = view !== selected; });
   document.title = selected ? selected.querySelector("h1").textContent + "｜苗志国 Daydreamer" : "作品｜苗志国 Daydreamer";
-  if (id === "moving-image") document.querySelector("#moving-image").open = true;
 }
 renderAlbum();
 window.addEventListener("hashchange", () => {
