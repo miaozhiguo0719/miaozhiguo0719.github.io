@@ -1,5 +1,14 @@
 const items = document.querySelectorAll(".enter");
 
+// Only one soundtrack should play at a time.
+document.querySelectorAll("video").forEach((video) => {
+  video.addEventListener("play", () => {
+    document.querySelectorAll("video").forEach((other) => {
+      if (other !== video) other.pause();
+    });
+  });
+});
+
 requestAnimationFrame(() => {
   items.forEach((item, index) => {
     window.setTimeout(() => item.classList.add("is-visible"), 70 + index * 90);
