@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-30",
+  "widths": [
+    320,
+    375,
+    414,
+    768,
+    1024,
+    1280,
+    1440,
+    1920
+  ],
+  "routes": [
+    "index",
+    "works",
+    "design",
+    "design-duo",
+    "design-nothing",
+    "now",
+    "about"
+  ],
+  "checks": [
+    "navigation and no overflow",
+    "header contact shares logo row on phone",
+    "primary work and links within 1280×800 fold",
+    "local fonts loaded",
+    "three albums and keyboard modal with focus return",
+    "editing-video and three tutorial playback and seeking",
+    "clipboard",
+    "no-JavaScript content"
+  ],
+  "result": "pass"
+}

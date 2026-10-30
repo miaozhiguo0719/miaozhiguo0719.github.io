@@ -1,0 +1,31 @@
+{
+  "scanned": "2026-10-30",
+  "findings": {
+    "fonts": "system sans + Georgia/Songti (dist/styles.css:1)",
+    "palette": "off-white, blue-grey ink, quiet green (dist/styles.css:1)",
+    "framework": "buildless HTML/CSS/JS, GitHub Pages",
+    "motion": "hover transforms only",
+    "routes": [
+      "index",
+      "works",
+      "design",
+      "design-duo",
+      "design-nothing",
+      "now",
+      "about",
+      "waist-demo"
+    ]
+  },
+  "preserve": [
+    "Daydreamer name",
+    "all artwork, video, routes, copy facts and handlers",
+    "independent pages and album drill-down",
+    "outputs/ pre-existing untracked files"
+  ],
+  "introduce": [
+    "Hallmark Studio design system",
+    "local font files",
+    "unified tokens",
+    "eight-width browser checks"
+  ]
+}

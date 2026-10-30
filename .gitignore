@@ -2,3 +2,6 @@ work/
 .sites-runtime/
 .DS_Store
 site-bundle.tar.gz
+
+# Local Hallmark browser captures
+dist/.hallmark/

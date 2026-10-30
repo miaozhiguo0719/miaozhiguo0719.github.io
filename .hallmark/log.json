@@ -1,0 +1,48 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "site",
+  "date": "2026-10-30",
+  "shape": "Portfolio Grid",
+  "theme": "studio",
+  "axes": "light/roman-serif/warm",
+  "hero": "Index (home), Banner (inner routes)",
+  "nav": "edge-aligned wordmark with five page links",
+  "footer": "colophon",
+  "imagery": "user photographs, existing artwork and actual videos only",
+  "photos": [
+   "01-in-transit",
+   "06-moon-flight"
+  ],
+  "entry": "dist/index.html",
+  "fingerprint": {
+   "lead": "photographic work",
+   "navigation": "separate pages",
+   "interaction": "album drill-down",
+   "type": "serif display and sans body"
+  },
+  "sections": [
+   "home selection",
+   "photographic collections",
+   "design cases",
+   "film player",
+   "profile"
+  ],
+  "signature": "wing and moon as a quiet contact sheet",
+  "waived": [
+   "39b",
+   "44c",
+   "59",
+   "77",
+   "78",
+   "79",
+   "83"
+  ],
+  "prompt": "Use Hallmark to optimize the existing Daydreamer personal website",
+  "review": {
+   "hero": "2 resolved",
+   "finish": "2 resolved, scoring confirmed"
+  }
+ }
+]
